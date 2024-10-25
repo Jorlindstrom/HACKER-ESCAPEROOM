@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
 html {
   font-size: 16px;
 }
@@ -27,6 +28,7 @@ p {
 }
 
 /* //////////////////// BUTTONS ////////////////// */
+
 .button {
   text-align: center;
   cursor: pointer;
@@ -34,7 +36,6 @@ p {
   border-radius: 5px;
   text-decoration: none;
 }
-
 .blue-button {
   background-color: #8acfe5;
   border: none;
@@ -81,6 +82,7 @@ p {
 }
 
 /* ///////////////// HEADER ///////////////// */
+
 header {
   background-color: #011827;
   color: #ffffff;
@@ -113,13 +115,17 @@ header {
    font-size: 16px;
    text-decoration: none;
 } */
+
 /* .main-nav:hover, .menu a:active {
     color: #8ACFE5;
 } */
-/* //////////////// HERO //////////////// */
-/* .hero {
 
+/* //////////////// HERO //////////////// */
+
+/* .hero {
+    
 } */
+
 .hero__img {
   width: 100%;
   height: auto;
@@ -136,6 +142,7 @@ header {
 
 /* .hero__blue-link {
 } */
+
 .hero__small-link {
   display: block;
   text-align: center;
@@ -150,6 +157,7 @@ header {
 }
 
 /* /////////////// TESTIMONIAL //////////// */
+
 .testimonial {
   display: grid;
   gap: 1rem;
@@ -178,6 +186,7 @@ header {
 }
 
 /* ///////////////// CHALLENGES /////////////// */
+
 .challenges {
   display: grid;
   /* grid-template-columns: repeat(3, 1fr); */
@@ -191,6 +200,7 @@ header {
 }
 
 /* //////////// CARDS //////////////*/
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -252,6 +262,7 @@ header {
 }
 
 /* ///////////////////// QUOTE /////////////////// */
+
 .quote {
   background-color: #011827;
   padding: 3.75rem 1.875rem 5rem 1.875rem;
@@ -269,6 +280,7 @@ header {
 }
 
 /* ////////////////////  */
+
 /* .article {
    padding-bottom: 1rem;
 } */
@@ -294,11 +306,12 @@ header {
 }
 
 .article__link {
-  margin-top: 3.5rem;
-  margin-bottom: 2rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
 }
 
 /* //////////////////// FOOTER //////////////////*/
+
 footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -309,31 +322,32 @@ footer {
 }
 
 .footer__heading {
-  font-size: 0.9rem;
-  font-weight: 700;
-  margin-bottom: 0 0 0 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0 0 0 0;
 }
 
 .footer__text {
-  font-size: 1rem;
-  font-weight: 400;
-  margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
 }
 
 /* .footer-nav__menu {
-
+    
 } */
+
 .footer-nav__item {
-  color: #ffffff;
-  text-decoration: none;
+color: #ffffff;
+text-decoration: none;
 }
+
 
 /* ////////////////////////////////////////////
 /////////////////  */
+
 @media screen and (min-width: 992px) {
   footer {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
-/*# sourceMappingURL=style.css.map */
