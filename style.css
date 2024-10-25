@@ -65,7 +65,7 @@ p {
 }
 
 .red-button:hover {
-  background-color: #ff1b0b;
+  background-color: #e3170a;
 }
 
 .red-button-small {
@@ -77,7 +77,7 @@ p {
 }
 
 .red-button-small:hover {
-  background-color: #ff1b0b;
+  background-color: #e3170a;
 }
 
 /* ///////////////// HEADER ///////////////// */
@@ -91,12 +91,10 @@ header {
   display: flex;
   justify-content: start;
 }
-
 .logotype__image {
   width: auto;
   height: 70px;
 }
-
 .logotype__title {
   color: #ffffff;
   font-size: 1.1rem;
@@ -105,37 +103,36 @@ header {
   margin: 5px;
 }
 
-/*.main-nav {
-   color:#FFFFFF;
-   font-family: Roboto, sans-serif;
-   font-weight: 700;
-   font-style: normal;
-   font-size: 16px;
-   text-decoration: none;
-} */
-/* .main-nav:hover, .menu a:active {
-    color: #8ACFE5;
-} */
-/* //////////////// HERO //////////////// */
-/* .hero {
+.main-nav {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+}
 
-} */
+.main-nav:hover,
+.main-nav a:active {
+  color: #8acfe5;
+}
+
+/* //////////////// HERO //////////////// */
+.hero {
+  /* .hero__blue-link {
+    } */
+}
 .hero__img {
   width: 100%;
   height: auto;
 }
-
 .hero__container {
   text-align: center;
   margin-top: 2.5rem;
 }
-
 .hero__red-link {
   display: none;
 }
-
-/* .hero__blue-link {
-} */
 .hero__small-link {
   display: block;
   text-align: center;
@@ -144,7 +141,6 @@ header {
   font-weight: 700;
   margin-top: 0.45rem;
 }
-
 .hero__small-link:hover {
   text-decoration: underline;
 }
@@ -156,22 +152,18 @@ header {
   grid-template-columns: 4rem 1fr;
   margin: 3rem 1rem;
 }
-
 .testimonial__img {
   width: 4rem;
   height: auto;
 }
-
 .testimonial__quote {
   font-size: 1.2rem;
   font-style: italic;
   margin: 0 0;
 }
-
 .testimonial__text {
   margin: 0;
 }
-
 .testimonial__informant {
   font-size: 0.9rem;
   font-style: normal;
@@ -184,10 +176,17 @@ header {
   justify-items: center;
   padding: 2rem 1.5rem;
 }
-
 .challenges__title {
   font-size: 1.6rem;
   font-weight: 400;
+}
+.challenges__container {
+  text-align: center;
+  margin-top: 3.4rem;
+}
+.challenges__link-container {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 /* //////////// CARDS //////////////*/
@@ -199,56 +198,39 @@ header {
   max-width: 19rem;
   height: auto;
 }
-
 .card__image {
   width: 100%;
   height: auto;
   border-radius: 5px 5px 0 0;
 }
-
 .card__body {
   padding: 0.125rem 1rem;
 }
-
 .card__title {
   font-size: 1.3rem;
   font-weight: 400;
   margin: 0;
 }
-
 .card__review {
   display: flex;
   justify-content: space-between;
+}
+.card__description {
+  margin-bottom: 2rem;
+}
+.card__link {
+  text-align: right;
+  margin-bottom: 1.2rem;
+}
+.card__participants {
+  font-size: 0.6rem;
+  display: inline-block;
 }
 
 .starholder__item {
   width: 15px;
   height: 15px;
   display: inline-block;
-}
-
-.participants {
-  font-size: 0.6rem;
-  display: inline-block;
-}
-
-.card__description {
-  margin-bottom: 2rem;
-}
-
-.card__link {
-  text-align: right;
-  margin-bottom: 1.2rem;
-}
-
-.challenges__container {
-  text-align: center;
-  margin-top: 3.4rem;
-}
-
-.challenges__link-container {
-  text-align: center;
-  margin-top: 2rem;
 }
 
 /* ///////////////////// QUOTE /////////////////// */
@@ -259,7 +241,6 @@ header {
   text-align: center;
   margin: 0;
 }
-
 .quote__text {
   font-size: 1.5rem;
   font-weight: 400;
@@ -268,31 +249,24 @@ header {
   margin-bottom: 3.6rem;
 }
 
-/* ////////////////////  */
-/* .article {
-   padding-bottom: 1rem;
-} */
+/* ////////////////////  ARTICLE //////////////////*/
 .article__img {
   width: 100%;
   height: auto;
 }
-
 .article__text-container {
   padding: 1rem 1rem 1.875rem;
 }
-
 .article__title {
   font-size: 1.6rem;
   font-weight: 700;
   font-style: normal;
   margin: 0;
 }
-
 .article__text {
   font-size: 1.2rem;
   margin-top: 1rem;
 }
-
 .article__link {
   margin-top: 3.5rem;
   margin-bottom: 2rem;
