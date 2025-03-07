@@ -11,19 +11,17 @@ describe("Testing of Deployed Hacker Escape Rooms on Github Pages", () => {
         cy.get('.main-nav__item-link').contains('Play online').click();
         cy.url().should('include', '/challenges.html');
 });
-// Två ovan fungerar hittils 
+
 it('Test filterfunction for challenges', () => {
     cy.visit('https://jorlindstrom.github.io/HACKER-ESCAPEROOM/challenges.html?filter=online');
     cy.wait(500); // Here needs to be a wait to make the test work probably because async function
     cy.get('.filterBtn').click();
     cy.wait(500); 
     cy.get('.filterWindow').should('have.class', 'filterWindow--active');
-    // cy.get('.filterWindow', {timeout: 5000}).should('have.class', 'filterWindow--active');
     cy.get('.filterwindow__Challenges').should('be.visible');
     cy.get('.filterWindow__Search').should('be.visible');
     cy.get('.filterSearch_input').type('Revolution');
     cy.contains('.api-challenges', 'Revolution').should('be.visible');
-    // cy.get('.challenge-list').should('have.length.greaterThan', 0);
 });
 
 
